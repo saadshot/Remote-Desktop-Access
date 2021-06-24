@@ -71,7 +71,7 @@ public void actionPerformed(ActionEvent ae){
 				}catch (IOException e){
 				e.printStackTrace();		
 				}
-				CreateFrame abc= new CreateFrame(cSocket,width,height);
+				//CreateFrame abc= new CreateFrame(cSocket,width,height);
 				dispose();
 				}
 				else {
