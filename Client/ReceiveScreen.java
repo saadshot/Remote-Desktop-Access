@@ -22,7 +22,7 @@ class ReceiveScreen extends Thread{
 
 	public void run(){
 		try{
-			//Read screenshots of the client and then draw them
+			//Read screenshots of the server and then draw them
 			while(continueLoop){
 				byte[] bytes = new byte[1024*1024];
 				int count = 0;
